@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors					= "tencent"
   spec.license					= "MIT"
   spec.platform					= :osx, "10.8"
-  spec.frameworks				= "UserNotifications"
   spec.source					= { :git => "https://github.com/xingePush/TPNS-macOS.git", :tag => spec.version }
-  spec.vendored_libraries			= 'macOSPush/*.framework'
+  spec.vendored_frameworks			= 'macOSPush/XG_SDK_Cloud_macOS.framework','macOSPush/XGMTACloud_macOS.framework'
 end
