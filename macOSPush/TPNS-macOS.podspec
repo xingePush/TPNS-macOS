@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name					= "TPNS-macOS"
-  spec.version					= "1.0.0.1"
+  spec.version					= "1.0.1.1"
   spec.summary					= "腾讯移动推送(macOS)"
   spec.homepage					= "https://cloud.tencent.com/product/tpns/"
   spec.authors					= "tencent"
